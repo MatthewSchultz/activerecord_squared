@@ -1,0 +1,10 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  some_string: Woot! This is a string!
+
+two:
+  some_string: OMG This is also a string!
+
+three:
+  some_string: I like big strings and I cannot lie\nyou programmers can't deny\nwhen a geek walks in with an itty bitty string and null all in your thing I get...Your PC ran into a problem and needs to restart!
