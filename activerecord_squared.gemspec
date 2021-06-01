@@ -5,21 +5,15 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version  = '>= 1.9.3'
   spec.version                = ActiverecordSquared::VERSION
   spec.authors                = ["Matthew Schultz"]
-  spec.homepage               = "https://github.com/"
+  spec.homepage               = "https://github.com/MatthewSchultz/activerecord_squared"
   spec.summary                = 'A shortcut for activerecord find.'
-  spec.description            = <<-DESCRIPTION
-    Adds a [] method at the class level for activerecord objects,
-  DESCRIPTION
+  spec.description            = "Adds a [] method at the class level for activerecord objects."
   spec.license                = "MIT"
-
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata               = {
     "homepage_uri" => spec.homepage,
     "source_code_uri" => spec.homepage,
-    "changelog_uri" => spec.homepage
+    "changelog_uri" => spec.homepage + '/blob/main/CHANGELOG.md'
   }
 
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
